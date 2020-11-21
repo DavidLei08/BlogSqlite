@@ -1,0 +1,18 @@
+# tomcat configuration
+server:
+  port: 8080
+  servlet:
+   context-path: /
+   session.timeout: 846000
+
+# mybatis configuration
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+# database configuration
+blog.sqlite.url: jdbc:sqlite:E:/git_space/BlogSqlite/sqlite/pro.db
+
+# log level
+logging.level:
+  club.dlblog.sqlite: DEBUG

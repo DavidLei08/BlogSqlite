@@ -1,0 +1,1 @@
+package club.dlblog.sqlite.mapper;import club.dlblog.sqlite.entity.ProEntity;import java.util.List;public interface ProMapper {    List<ProEntity> list();    List<ProEntity> query(ProEntity proEntity);    int add(ProEntity proEntity);    int delAll();    int del(Integer id);}
